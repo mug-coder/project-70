@@ -1,0 +1,50 @@
+#video {
+    width: 1900;
+    height: 1000;
+}
+
+#marqueeStyle{
+    background: crimson;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+  
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img{
+    width:400px;
+    height: 300px;
+}
